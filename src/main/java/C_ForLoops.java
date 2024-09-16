@@ -40,6 +40,17 @@ public class C_ForLoops {
       for(int i = 0; i < numbers.length; i++) {
           System.out.println(numbers[i]);
       }
+
+      for(int i = 0; i < numbers.length; i++) {
+          if(numbers[i] % 2 == 0) {
+              System.out.println(numbers[i]);
+          }
+      }
+      if (numbers % 2 != 0) {
+          System.out.println("Odd");
+      } else {
+          System.out.println("Even");
+      }
     // Implementeer een for-loop die elk element in de array print.
 
   }
